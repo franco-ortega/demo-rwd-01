@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet">
   <title>Responsive Web Design</title>
 </head>
 <body>
 
   <header class="header">
-    <div class="row header-content">
+    <div class="container row header-content">
       <div class="nav-text">CRL</div>
       <nav class="row">
         <ul class="row nav-link-list">
@@ -28,76 +29,82 @@
     </div>
   </header>
 
-  <section class="row-lrg">
-    <div>
-      <h1>Responsive layouts don't have to be a struggle</h1>
-    </div>
-    <div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur 3 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </p>
-      <button>I want to learn</button>
-    </div>
-  </section>
-
-  <section class="row-lrg">
-    <div>
-      <h2>Mobile-first
-      </h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-      </p>
-    </div>
-    <div>
-      <h2>Efficient</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-      </p>
-    </div>
-    <div>
-      <h2>Done right</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-      </p>
-    </div>
-  </section>
-
-  <section class="row-lrg">
-    <div>
+  <section class="section-one">
+    <div class="container row-lrg">
       <div>
-        <h2>It doesn't have to be so hard</h2>
+        <h1 class="section-one-title">Responsive layouts <span class="text-accent">don't have to be a struggle</span></h1>
+      </div>
+      <div class="section-one-content">
+        <p class="section-one-text">
+          Lorem ipsum dolor sit amet, consectetur 3 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <button class="btn">I want to learn</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container row-med">
+      <div>
+        <h2>Mobile-first
+        </h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
       </div>
       <div>
-        <img src="./assets//LastImage.jpg" alt="hand drawn wireframes">
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-      </div>
-    </div>
-
-    <div class="row-med col-lrg">
-      <div>
-        <h2>Break it down</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <h2>Efficient</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
       </div>
       <div>
-        <h2>Work your way up</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
-      <div>
-        <h2>Break it down</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <h2>Done right</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
       </div>
     </div>
   </section>
 
-  <footer>
+  <section class="">
+    <div class="container row-lrg">
+      <div>
+        <div>
+          <h2>It doesn't have to be so hard</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          </p>
+        </div>
+        <div>
+          <img src="./assets//LastImage.jpg" alt="hand drawn wireframes">
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        </div>
+      </div>
+  
+      <div class="row-med col-lrg">
+        <div>
+          <h2>Break it down</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div>
+          <h2>Work your way up</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div>
+          <h2>Break it down</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container">
     <div>
       <h2>just scratching the surface</h2>
     </div>
@@ -108,33 +115,35 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloremagnaaliqua.Utenimadminim9veniam.
         </p>
       </div>
-      <div>
-        <h3>Getting around</h3>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
+      <div class="row">
+        <div>
+          <h3>Getting around</h3>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Other things</h3>
+          <ul>
+            <li>Lorem ipsum</li>
+            <li>dolor</li>
+            <li>sit amet</li>
+            <li>consectetur</li>
+          </ul>
+        </div>
+        <div>
+          <h3>And more</h3>
+          <ul>
+            <li>Lorem ipsum</li>
+            <li>dolor</li>
+            <li>sit amet</li>
+            <li>consectetur</li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <h3>Other things</h3>
-        <ul>
-          <li>Lorem ipsum</li>
-          <li>dolor</li>
-          <li>sit amet</li>
-          <li>consectetur</li>
-        </ul>
       </div>
-      <div>
-        <h3>And more</h3>
-        <ul>
-          <li>Lorem ipsum</li>
-          <li>dolor</li>
-          <li>sit amet</li>
-          <li>consectetur</li>
-        </ul>
-      </div>
-    </div>
   </footer>
   
 </body>
