@@ -51,6 +51,10 @@ ul {
   gap: 2rem;
 }
 
+.gap-lrg {
+  gap: 4rem;
+}
+
 .bkgd-dark {
   background-color: #3b4050;
 }
@@ -147,7 +151,6 @@ ul {
 }
 
 .section-three-title {
-  color: #a59678;
   font-family: 'Oswald', sans-serif;
   font-size: 1.75rem;
   /* font-size: max(4ch, 1.3rem); */
@@ -158,8 +161,6 @@ ul {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
-
-  padding: 2rem 0;
 }
 
 .sidebar {
