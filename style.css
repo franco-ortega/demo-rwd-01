@@ -55,6 +55,16 @@ ul {
   gap: 4rem;
 }
 
+.font-primary {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+.font-secondary {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
 .bkgd-dark {
   background-color: #3b4050;
 }
@@ -98,8 +108,7 @@ ul {
 }
 
 .nav-link {
-  font-family: 'Oswald', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
 }
 
@@ -112,24 +121,18 @@ ul {
 }
 
 .section-one-title {
-  font-family: 'Oswald', sans-serif;
   font-size: 5rem;
-  font-weight: 700;
   line-height: 100%;
 }
 
 .section-one-text {
-  font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
-  font-weight: 400;
 }
 
 .section-one-btn {
   padding: 0.25em 1.75em;
   width: fit-content;
-  font-family: 'Oswald', sans-serif;
   font-size: 1.5rem;
-  font-weight: 700;
 }
 
 .section-two {
@@ -138,74 +141,48 @@ ul {
 
 .section-two-title {
   color: #a59678;
-  font-family: 'Oswald', sans-serif;
   font-size: 2rem;
-  font-weight: 700;
 }
 
 .section-two-text {
-  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
-  font-weight: 400;
 }
 
 .section-three-title {
-  font-family: 'Oswald', sans-serif;
   font-size: 1.75rem;
   /* font-size: max(4ch, 1.3rem); */
-  font-weight: 700;
 }
 
 .section-three-text {
-  font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
-  font-weight: 400;
 }
 
 .sidebar {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.sidebar-article {
   background-color: #2e323f;
   padding: 2rem;
 }
 
 .sidebar-title {
-  font-family: 'Oswald', sans-serif;
   font-size: 2rem;
-  font-weight: 700;
   line-height: 75%;
-
-  padding-bottom: 2rem;
 }
 
 .sidebar-text {
-  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
-  font-weight: 400;
 }
 
 .footer-title {
-  font-family: 'Oswald', sans-serif;
   font-size: 1.5rem;
-  font-weight: 700;
   padding-bottom: 2rem;
 }
 
 .footer-subtitle {
-  font-family: 'Oswald', sans-serif;
   font-size: 1.25rem;
-  font-weight: 700;
   padding-bottom: 1rem;
 }
 
 .footer-text {
-  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
-  font-weight: 400;
 }
 
 @media (min-width: 700px) {
