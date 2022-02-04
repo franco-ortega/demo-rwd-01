@@ -20,7 +20,6 @@ ul {
 }
 
 .image {
-  /* width: 50%; */
   max-width: 100%;
 }
 
@@ -33,7 +32,11 @@ ul {
 .row {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
 }
 
 .bkgd-dark {
@@ -61,7 +64,6 @@ ul {
 }
 
 .header-content {
-  /* margin: auto; */
   padding: 1rem 0;
   align-items: center;
   justify-content: space-between;
@@ -72,13 +74,6 @@ ul {
   font-family: 'Comic Neue';
   font-size: 2rem;
   font-weight: 700;
-}
-
-.nav {
-  /* margin-left: auto; */
-  /* align-items: center; */
-  /* gap: 1rem; */
-  /* border: solid 1px white; */
 }
 
 .nav-list {
@@ -93,7 +88,7 @@ ul {
 
 .nav-link {
   font-family: 'Oswald', sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
 }
 
@@ -101,14 +96,16 @@ ul {
   background-color: #3b4050;
 }
 
-.section-one-title {
-  font-family: 'Oswald', sans-serif;
-  font-size: 6rem;
-  line-height: 100%;
+.section-one-content {
+  align-items: center;
+  gap: 2rem;
 }
 
-.section-one-content {
-  margin-top: 2rem;
+.section-one-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 100%;
 }
 
 .section-one-text {
@@ -117,14 +114,16 @@ ul {
   font-weight: 400;
 }
 
-.test-text {
+.section-one-btn {
+  padding: 0.25em 1.75em;
+  width: fit-content;
   font-family: 'Oswald', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
 }
 
 .section-two {
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
 }
 
 .section-two-article {
