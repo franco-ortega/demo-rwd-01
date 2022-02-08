@@ -8,7 +8,6 @@
 
 ul {
   list-style: none;
-  /* border: solid 1px lightblue; */
 }
 
 .btn {
@@ -26,7 +25,7 @@ ul {
 .container {
   max-width: min(85%, 1000px);
   margin: auto;
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 
 .row {
@@ -35,6 +34,15 @@ ul {
 }
 
 .col {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-ctr {
+  align-items: center;
+}
+
+.flex {
   display: flex;
   flex-direction: column;
 }
@@ -93,7 +101,6 @@ ul {
   padding: 1rem 0;
   align-items: center;
   justify-content: space-between;
-  /* border: solid 1px red; */
 }
 
 .header-title {
@@ -121,12 +128,12 @@ ul {
 }
 
 .section-one-title {
-  font-size: 5rem;
-  line-height: 100%;
+  font-size: 4rem;
+  line-height: 5rem;
 }
 
 .section-one-text {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .section-one-btn {
@@ -149,51 +156,87 @@ ul {
 }
 
 .section-three-title {
-  font-size: 1.75rem;
-  /* font-size: max(4ch, 1.3rem); */
+  font-size: 1.65rem;
 }
 
 .section-three-text {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .sidebar {
+  gap: 2rem;
+}
+
+.sidebar-section {
   background-color: #2e323f;
   padding: 2rem;
 }
 
 .sidebar-title {
-  font-size: 2rem;
-  line-height: 75%;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
 }
 
 .sidebar-text {
-  font-size: 1rem;
+  font-size: 0.9rem;
+}
+
+.footer-content {
+  align-items: center;
+  gap: 1.5rem;
+  /* border: #f5f5f5 solid 1px; */
 }
 
 .footer-title {
-  font-size: 1.5rem;
-  padding-bottom: 2rem;
+  font-size: 1.75rem;
+  padding-bottom: 1.5rem;
 }
 
 .footer-subtitle {
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding-bottom: 1rem;
 }
 
 .footer-text {
-  font-size: 1rem;
+  font-size: 0.75rem;
 }
 
 @media (min-width: 700px) {
-  .row-med {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  .gap-lrg {
+    gap: 3rem;
   }
 
-  .section-two-article {
-    width: 25%;
+  .flex {
+    flex-direction: row;
+  }
+
+  .text {
+    text-align: left;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .sidebar {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .sidebar-title {
+    font-size: 1.25rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-section {
+    width: 50%;
+    justify-content: space-between;
+    align-self: flex-start;
   }
 }
 
@@ -202,7 +245,7 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 5rem;
+    /* gap: 5rem; */
   }
 
   .col-lrg {
@@ -211,8 +254,7 @@ ul {
   }
 
   .section-three {
-    border: solid 1px red;
     display: flex;
-    gap: 5rem;
+    /* gap: 5rem; */
   }
 }
